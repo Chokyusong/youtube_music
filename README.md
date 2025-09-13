@@ -1,6 +1,7 @@
+🔹내보내기
 pyinstaller --onefile --noconsole --name Youtube you.py
 
- 삭제
+🔹삭제
 rmdir /s /q build
 rmdir /s /q dist
 del /q *.spec
