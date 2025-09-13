@@ -1,5 +1,7 @@
 🔹내보내기
 pyinstaller --onefile --noconsole --name Youtube you.py
+pyinstaller --clean --noconfirm --onefile --noupx --name yt2_toggle you2.py
+
 
 🔹삭제
 rmdir /s /q build
