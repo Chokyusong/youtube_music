@@ -1,5 +1,12 @@
 pyinstaller --onefile --noconsole --name Youtube you.py
 
+ 삭제
+rmdir /s /q build
+rmdir /s /q dist
+del /q *.spec
+
+
+
 🔹 경우 1: 브레이브 창 2개 (같은 프로필)
 
 기본적으로 하나의 Brave 실행 프로세스만 뜨고, 창은 여러 개가 떠 있습니다.
